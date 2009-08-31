@@ -4,7 +4,7 @@ Name:		netactview
 Version:	0.4.1
 Release:	1
 License:	GPL v2
-Group:		X11/Applications/Graphics
+Group:		X11/Applications/Networking
 Source0:	http://dl.sourceforge.net/netactview/%{name}-%{version}.tar.bz2
 # Source0-md5:	ffe73b1978c83415fef1cd0bcbec97c1
 Patch0:		%{name}-desktop.patch
