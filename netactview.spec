@@ -62,11 +62,11 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-%files
+%find_lang %{name}
+%files -f %{name}.lang
 %defattr(644,root,root,755)
 %attr(755,root,root)%{_bindir}/netactview
 %{_desktopdir}/netactview.desktop
 %{_mandir}/man1/netactview.1*
-%{_datadir}/locale
 %{_datadir}/netactview
-%{_pixmapsdir}
+%{_pixmapsdir}/*.png
