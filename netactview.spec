@@ -19,10 +19,10 @@ BuildRequires:	libglade2-devel
 BuildRequires:	libgnome-devel >= 2.0
 BuildRequires:	libtool
 BuildRequires:	perl-XML-Parser
+BuildRequires:	pkgconfig
 BuildRequires:	rpmbuild(macros) >= 1.198
 Requires:	GConf2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
 
 %description
 Netactview is a graphical network connections viewer for Linux,
