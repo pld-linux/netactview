@@ -35,9 +35,6 @@ Linuksa, podobną w swojej funkcjonalności do Netstat. Posiada takie
 cechy jak: odwzorowywanie nazw hostów, automatyczne odświeżanie i
 sortowanie.
 
-%clean
-rm -rf $RPM_BUILD_ROOT
-
 %prep
 %setup -q
 %patch0 -p1
@@ -63,6 +60,10 @@ rm -rf $RPM_BUILD_ROOT
 	DESTDIR=$RPM_BUILD_ROOT
 
 %find_lang %{name}
+
+%clean
+rm -rf $RPM_BUILD_ROOT
+
 %files -f %{name}.lang
 %defattr(644,root,root,755)
 %attr(755,root,root)%{_bindir}/netactview
