@@ -1,10 +1,12 @@
---- netactview-0.4.1/data/netactview.desktop.in.org	2009-08-21 19:26:33.000000000 +0200
-+++ netactview-0.4.1/data/netactview.desktop.in	2009-08-21 19:26:53.000000000 +0200
+--- netactview-0.6/data/netactview.desktop.in.org	2011-03-12 00:34:03.000000000 +0100
++++ netactview-0.6/data/netactview.desktop.in	2011-03-12 00:34:21.000000000 +0100
 @@ -1,11 +1,10 @@
  [Desktop Entry]
 -Encoding=UTF-8
- _Name=Net Activity Viewer
- _Comment=View network connections
+-_Name=Net Activity Viewer
+-_Comment=View network connections
++Name=Net Activity Viewer
++Comment=View network connections
  TryExec=netactview
  Exec=netactview
 -Icon=netactview.png
@@ -12,5 +14,5 @@
  Terminal=false
  Type=Application
  StartupNotify=true
--Categories=GNOME;GTK;Application;Network;Monitor
+-Categories=GNOME;GTK;Network;Monitor
 +Categories=GNOME;GTK;Network;Monitor;
