@@ -1,12 +1,12 @@
 Summary:	Network connections viewer for Gnome
 Summary(pl.UTF-8):	Przeglądarka połączeń sieciowych dla Gnome
 Name:		netactview
-Version:	0.5.1
+Version:	0.6
 Release:	1
 License:	GPL v2
 Group:		X11/Applications/Networking
 Source0:	http://dl.sourceforge.net/netactview/%{name}-%{version}.tar.bz2
-# Source0-md5:	3c0cabb71f707c3e161dab0d9243e9d6
+# Source0-md5:	8bc3e6f6e9e51e6546dd0985fdb11db0
 Patch0:		%{name}-desktop.patch
 URL:		http://netactview.sourceforge.net
 BuildRequires:	GConf2-libs
