@@ -12,7 +12,7 @@ URL:		http://netactview.sourceforge.net
 BuildRequires:	GConf2-libs
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	gtk+2-devel >= 2.8
 BuildRequires:	intltool
 BuildRequires:	libglade2-devel
